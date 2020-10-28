@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Jordan's Test Page</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.jumbotron {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	text-align: center;
+	background: #392986;
+	color: antiquewhite;
+	background-image: linear-gradient(120deg, #155799, #159957);
+	margin-bottom: 0px;
+}
+
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+    <h1>Learn Russian</h1>
+    <p>A fantastic resource.</p>
+  </div>
+ 
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+     
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+      <li><a href="#">Page 4</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+<h1>Welcome</h1>
+<h2>Introduction</h2>
+<p>Hi. My name's Jordan and this is my experimental website for course module <strong>SML5202</strong>.</p>
+<p>Here are three facts about me:</p>
+<ol>
+<li>I'm British.</li>
+<li>I study at QMUL</li>
+<li>I enjoy football, reading and following current events</li>
+</ol>
+<p>One of my favourite language learning websites is&nbsp;<a href="https://www.duolingo.com">Duolingo</a></p>
+<hr />
+<p>Last updated: 8<sup>th</sup> October 2020.</p>
+</body>
+  
+  
+</html>
